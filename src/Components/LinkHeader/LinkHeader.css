@@ -1,0 +1,44 @@
+.link-header {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 15%;
+    justify-items:start;
+    align-content: center;
+    align-items:center;
+    padding-left:2rem;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:600;
+    font-size:1.5rem;
+    background-color: #4E44BB;
+    border:none;
+    
+}
+.title {
+    color:#FFFFFF;
+    grid-column: span 2;
+}
+
+.item {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 2.5px solid transparent;
+    transition: all 0.5s;
+}
+.item:hover{
+    color: #C9C9C9;
+    border-color: #C9C9C9;
+}
+
+.one {
+    grid-column:7;
+    grid-row:0;
+}
+
+.logo {
+    grid-column:0;
+    grid-row:0; 
+    align-content: top;
+    height: 45px;
+    width:40px;
+}
